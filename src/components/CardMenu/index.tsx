@@ -17,7 +17,7 @@ const CardMenu = ({ description, image, title }: Props) => (
       to="/perfil"
       title="Clique aqui para adcionar ao carrinho."
     >
-      Saiba mais
+      Adicionar ao carrinho
     </Button>
   </S.Card>
 )

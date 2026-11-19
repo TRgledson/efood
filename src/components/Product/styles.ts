@@ -23,8 +23,8 @@ export const ImageMenu = styled.img`
 `
 
 export const Titulo = styled.h3`
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
   display: block;
 `
 

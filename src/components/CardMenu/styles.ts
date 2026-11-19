@@ -16,7 +16,7 @@ export const ImageCard = styled.img`
 
 export const Titulo = styled.h3`
   margin-top: 8px;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
 `
 

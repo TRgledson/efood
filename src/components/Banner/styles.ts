@@ -35,6 +35,7 @@ export const Imagem = styled.div`
 export const Titulo = styled.h2`
   font-size: 36px;
   color: ${cores.branco};
+  font-weight: 900;
 `
 
 export const Origem = styled.p`
