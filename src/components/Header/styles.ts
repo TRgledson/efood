@@ -25,13 +25,19 @@ export const Titulo = styled.h1<Props>`
   font-weight: 900;
   margin-bottom: ${(props) => (props.$variant === 'flex' ? '80px' : '40px')};
   margin-top: ${(props) => (props.$variant === 'flex' ? '80px' : '136px')};
-  justify-self: start;
-  text-align: left;
 
-  &:last-child {
-    justify-self: end;
-    text-align: right;
-  }
+  ${(props) =>
+    props.$variant === 'flex' &&
+    `
+    &:first-child {
+      justify-self: start;
+      text-align: left;
+    }
+    &:last-child {
+      justify-self: end;
+      text-align: right;
+    }
+  `}
 
   @media (max-width: 768px) {
     padding: 8px;
